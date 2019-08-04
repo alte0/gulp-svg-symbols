@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/Hiswe/gulp-svg-symbols",
   "dependencies": {
-    "bluebird": "^3.3.5",
-    "cheerio": "^0.20.0",
-    "consolidate": "^0.14.1",
-    "gulp-util": "^3.0.7",
-    "lodash": "^4.11.1",
-    "through2": "^2.0.1"
+    "bluebird": "^3.5.5",
+    "cheerio": "^0.22.0",
+    "consolidate": "^0.15.1",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.15",
+    "through2": "^3.0.1"
   },
   "devDependencies": {
     "event-stream": "^3.3.2",
