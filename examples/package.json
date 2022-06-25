@@ -1,0 +1,41 @@
+{
+  "name": "gulp-svg-symbols-examples",
+  "version": "1.0.0",
+  "description": "A bunch of gulpfile examples using gulp-svg-symbols",
+  "main": "gulpfile.js",
+  "scripts": {
+    "list": "gulp -T",
+    "all": "gulp all",
+    "all-build-in": "gulp all-build-in-templates",
+    "svg": "gulp svg",
+    "scss": "gulp scss",
+    "stylus": "gulp stylus",
+    "css-var": "gulp css-var",
+    "demo-page": "gulp demo-page",
+    "svg-classname": "gulp svg-classname",
+    "custom-template": "gulp custom-template",
+    "aspect-ratio": "gulp aspect-ratio",
+    "svg-containing-identical-id": "gulp svg-containing-identical-id",
+    "vue": "gulp vue && parcel vue/index.html"
+  },
+  "author": "Hiswe",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-if": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-stylus": "^2.7.0",
+    "gulp-svg-symbols": "^3.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "parcel-bundler": "^1.9.7",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}

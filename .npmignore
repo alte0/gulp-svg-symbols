@@ -4,9 +4,8 @@ tmp
 npm-debug.log
 
 test
+examples
 .jshintrc
 .travis.yml
 CHANGELOG.md
 gulpfile.js
-LICENCE
-README.md
